@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Авторизация и обновление пароля</title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "ourstyles.css">
+  </head>
+  <body>
+
+    <form action="onauthoriz.php" method="post">
+    <fieldset>
+      <legend>Форма авторизации</legend>
+      <p><strong>Введите логин или адрес электронной почты:</strong><br/>
+      <input type="text" name="Aname" size="40" /></p>
+    
+      <p><strong>Введите пароль:</strong><br/>
+      <input type="password" name="Apassword" size="40" /></p>
+    </fieldset>
+   
+      <p><input type="submit" value="Войти в систему" /></p>
+    </form>
+    
+    </br>
+
+    <form action="onlognewpass.php" method="post">
+    <fieldset>
+      <legend>Форма обновления пароля</legend>
+      <p><strong>Введите адрес электронной почты:</strong><br/>
+      <input type="text" name="Aname2" size="40" /></p>
+    
+        <p id = "helptext">Если вы забыли логин или пароль, введите в этом поле адрес e-mail и нажмите кнопку "Восстановить логин/пароль"<br/>
+    </fieldset>
+
+      <p><input type="submit" value="Восстановить логин/пароль" /></p>
+    </form>
+
+  </body>
+</html>

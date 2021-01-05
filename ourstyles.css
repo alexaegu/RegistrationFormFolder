@@ -1,0 +1,19 @@
+fieldset
+{
+  width: 50%;
+  border: 2px #bbbbbb solid;
+}
+legend
+{
+  font-size: 150%;
+  font-weight: bold;
+}
+hr
+{
+  color: #bbbbbb;
+}
+#helptext
+{
+  font-size: 85%;
+  color: #444444;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Форма регистрации</title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "ourstyles.css">
+  </head>
+  <body>
+    <form action="onregistr.php" method="post">
+    <fieldset>
+      <legend>Форма регистрации</legend>
+      <p><strong>Введите логин:</strong><br/>
+      <input type="text" name="name" size="40" /></p>
+      <hr>
+    
+      <p><strong>Введите пароль:</strong><br/>
+      <input type="password" name="password" size="40" /></p>
+    
+      <p><strong>Повторите введённый пароль:</strong><br/>
+      <input type="password" name="password2" size="40" /></p>
+      <hr>
+    
+      <p><strong>Введите адрес электронной почты:</strong><br/>
+      <input type="text" name="email" size="40" /></p>
+    </fieldset>
+          </br>
+    <fieldset>
+      <p id = "helptext">Логин содержит от 6 до 10 символов, состоит из латинских букв, в которых строчные и прописные не отличаются, может включать цифры, начинается с буквы. Например: login135 и Login135 - это один и тот же логин.</p>
+      
+      <p id = "helptext">Пароль содержит от 6 до 10 символов, состоит из латинских букв и цифр одновременно; строчные и прописные буквы отличаются. Например: 2qwf57j и 2qWf57j - это разные пароли.</p>
+      
+      <p id = "helptext">Адрес электронной почты содержит до 30 символов: латинских букв и цифр; строчные и прописные буквы отличаются; точка - знаковый символ. Например: abc@site.com и abc@Site.com - разные адреса, abc@site.com и a.bc@site.com - тоже разные ареса.</p>
+    </fieldset>
+     
+    <p><input type="submit" value="Зарегистрироваться" /></p>
+    </form>
+  </body>
+</html>
